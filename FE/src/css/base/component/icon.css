@@ -1,0 +1,151 @@
+
+.icon--menu{
+    background: var(--image) -427px -89px;
+	width: 20px;
+	height:20px;
+	place-self: self-end;
+    align-self: center;
+	margin-right: 10px;
+}
+.icon--close{
+	background: var(--image) -147px -147px;
+	height: 19px;
+	width: 19px;
+}
+.icon--question{
+    background:  var(--image)  -89px -145px;
+	width: 22px;
+	height:22px;
+	margin-right: 10px;
+}
+.icon--logo{
+	height:40px;
+	width: 40px;
+
+}
+.icon--logo img{
+	height: 40px;
+}
+.icon--item{
+	width: 20px;
+	height: 20px;
+	padding: 2px;
+	margin: 0 12px 0 12px;
+}
+.icon--home{
+	background: var(--image) -33px -1630px;
+}
+.icon--cash{
+	background: var(--image) -78px -1631px;
+}
+.icon--credit{
+	background: var(--image) -121px -1633px;
+}
+.icon--shopping{
+	background: var(--image) -165px -1632px;
+}
+.icon--sell{
+	background: var(--image) -208px -1631px;
+}
+.icon--bill{
+	background: var(--image)  -254px -1632px;
+}
+.icon--warehouse{
+	background: var(--image) -294px -1632px;
+}
+.icon--tool{
+	background: var(--image) -339px -1633px;
+}
+
+.icon--assets{
+	background: var(--image) -382px -1632px;
+}
+.icon--price{
+	background: var(--image) -552px -1636px;
+}
+.icon--synthetic{
+	background: var(--image) -514px -1632px;
+}
+.icon--report{
+	background: var(--image) -552px -1636px;
+}
+
+.icon--analysis{
+	background: var(--image) -207px -1667px;
+}
+.navbar__icon--user{
+	height: 32px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 250px;
+}
+/* .box__input-icon div{
+	margin-bottom: 20px;
+} */
+.icon--bell{
+	background: var(--image) -786px -30px;
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+}
+.icon--user{
+	background: var(--image) -352px -894px;
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+}
+.icon--reload{
+	background: var(--image) -424px -201px;
+	height: 24px;
+	width: 24px;
+	align-self: flex-end;
+}
+.icon--remove{
+	background: var(--image) -147px -147px;
+	height: 18px;
+	width: 18px;
+	align-self: flex-end;
+}
+
+
+.icon--import{
+	background: var(--image) -705px -255px;
+	height: 24px;
+	width: 24px;
+	align-self: flex-end;
+}
+.icon--export{
+	background: var(--image) -147px -258px;
+	height: 19px;
+	width: 19px;
+	align-self: flex-end;
+}
+
+.icon--navbar{
+	background: var(--image) -846px -32px;
+	height: 24px;
+	width: 24px;
+    margin-left: 24px;
+}
+.icon--drop{
+	background: var(--image)  -900px -365px;
+	height: 5px;
+	width: 12px;
+	margin: 0px 0px 0px 10px;
+	position: relative;
+}
+.icon--continue{
+	background: var(--image) -320px -313px;
+	width: 16px;
+	height: 14px;
+}
+.icon--previous-step{
+	background: var(--image) -368px -313px;
+	width: 16px;
+	height: 14px;
+}
+.fas{
+	font-size: 20px;
+	color: red;
+}

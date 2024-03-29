@@ -1,0 +1,98 @@
+.button {
+    height: 36px;
+    outline: none;
+    opacity: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    min-width: 80px;
+    border-radius: 4px;
+  }
+  .btn-main {
+    color: white;
+    border: none;
+    background-color: var(--button-color);
+    
+  }
+.btn-title{
+  justify-self: end;
+  width: 170px;
+}
+.btn-add{
+  height: 36px;
+    outline: none;
+    opacity: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 24px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+}
+.btn-second {
+    width: 73px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid var(--border-color);
+    color: black;
+  }
+/* .btn-cancel{
+  justify-self: left;
+} */
+    /* 
+  .btn-link {
+    color: #50b83c;
+    background-color: #ffffff;
+    border: none;
+  }
+  
+  .btn-icon-show {
+    border-radius: 3px 0px 0px 3px;
+    width: 78px;
+    border: none;
+    color: #ffffff;
+  }
+  .box {
+    display: flex;
+  }
+  .icon-show {
+    height: 36px;
+    width: 36px;
+    background-color: var(--button-color);
+    border-radius: 0px 3px 3px 0px;
+    border-left: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-show div {
+    background: url("/assets/img/Sprites.64af8f61.svg") no-repeat -612px -413px;
+    width: 9px;
+    height: 6px;
+  }
+  
+  .icon-decrease {
+    height: 36px;
+    width: 36px;
+    background-color: var(--button-color);
+    border-left: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-decrease div {
+    /* background: url('/assets/img/Sprites.64af8f61.svg') no-repeat -612px -413px;
+          width: 9px;
+          height: 6px; 
+    width: 20px;
+    height: 20px;
+  }
+   */
+  .button:hover {
+    background-color: #67c8b9;
+  }
+  .button:focus {
+    background-color: var(--border-color);
+  }
+  

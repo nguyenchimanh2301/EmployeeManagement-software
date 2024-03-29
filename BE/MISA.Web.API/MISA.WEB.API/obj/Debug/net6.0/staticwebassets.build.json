@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "C8U6y5oKYB/kEbY25KJmKkcQR3pLEXLX255bxqPWn4Y=",
+  "Source": "MISA.Web.API",
+  "BasePath": "_content/MISA.Web.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

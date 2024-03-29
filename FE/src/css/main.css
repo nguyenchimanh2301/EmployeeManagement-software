@@ -1,0 +1,42 @@
+
+@import url(./base/component/combobox.css);
+@import url(./base/form/forminput.css);
+@import url(./base/component/popup.css);
+@import url(./base/component/toast.css);
+@import url(./base/component/dropdownlist.css);
+@import url(./base/form/formimport.css);
+@import url(./base/form/login.css);
+
+
+@import url(./base/component/button.css);
+@import url(./base/component/input.css);
+@import url(./base/component/icon.css);
+@import url(./base/component/loading.css);
+@import url(./base/component/tooltip.css);
+
+@import url(./base/layout/sidebar.css);
+@import url(./base/layout/table.css);
+@import url(./base/layout/navbar.css);
+@import url(./base/layout/grid.css);
+
+@import url(./base/variable.css);
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Roboto;
+}
+@font-face {
+    font-family:'MISA';
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: gray;
+  }
+
+
+

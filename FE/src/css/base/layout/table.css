@@ -1,0 +1,313 @@
+.data{
+    background-color: #ffffff;
+    margin:12px 24px 12px 0px 24px;
+    border-radius: 4px;
+    height: calc(100vh - 125px);
+}
+
+.data .feature{
+    background-color: #ffffff;
+    position: relative;
+}
+#table{
+    line-height: 48px; 
+    border: 1px solid #E0E0E0;
+    border-collapse: collapse;
+    margin-left: 12px;
+    width: 100vw;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+#table thead {
+   background-color: #EEEEEE;
+   position: sticky;
+   top: 0;
+   inset-inline-start: 0;
+   z-index: 100; 
+   border: 1px solid #E0E0E0;
+}
+#table tr{
+    position: relative;
+    outline:none;
+}
+#table thead,tbody tr,td{
+    border: 1px solid #E0E0E0;
+    width: auto;
+}
+.checked__box{
+    display: grid;
+    place-items: center;
+}
+.footer{
+    border-right: none;
+    border-left: none;
+    position: sticky;
+    bottom: 0;
+    inset-inline-end: 0;
+    border: none;
+    background-color: #ffffff;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+tfoot{
+    border-right: none;
+    border-left: none;
+    position: sticky;
+    bottom: 0;
+    inset-inline-end: 0;
+    border: none;
+}
+tfoot tr td{
+    border: none;
+}
+#table thead th{
+    border: 1px solid #E0E0E0;
+}
+#table thead th:first-child{
+    width: 50px;
+    z-index: 100;
+}
+#table th:first-child{
+    position: sticky;
+    left: 0;
+    background-color: #EEEEEE;
+
+}
+/* th:last-child{
+    position: sticky;
+    right: 0;
+    background-color: #E0E0E0;
+
+} */
+.txt-right{
+    padding-right: 10px;
+    text-align: right;
+}
+.txt-left{
+    padding-left: 10px;
+    text-align: left;
+}
+#table td:first-child{
+    position: sticky;
+    left: 0;
+    inset-block-start: 0;
+    background-color: #ffffff;
+
+}
+
+/* td:last-child{
+    position: sticky;
+    right: 0;
+    background-color: #ffffff;
+} */
+#table thead tr th:last-child{
+    text-align: center;
+}
+#table th{
+    outline: none;
+    line-height: 50px;
+    font-size: 14px;
+   
+}
+#table td{
+    outline: none;
+    line-height: 48px;
+    max-height:48px;
+    font-size: 14px;
+   
+}
+.scroll__table{
+height: calc(100vh - 236px);
+width:calc(100vw - 248px);
+overflow: scroll;
+}
+/* .txt-left{
+    text-align: left ;
+    margin-left: 20px !important;
+  } */
+.txt-center{
+    text-align: center;
+}
+
+#table tbody,tfoot{
+    background-color: #ffffff;
+}
+#table tbody tr:hover{
+    background-color: #9CD5B3;
+}
+#table tbody tr{
+    position: relative;
+}
+#table tbody tr:active{
+    background-color: rgba(80,184,60,0.1);
+}
+
+#editRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#check{
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+}
+#table tfoot{
+    height: 56px;
+}
+#table tfoot tr{
+    width: 100%;
+    /* background-color: #E0E0E0; */
+  
+}
+.paging{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.paging select{
+    height: 36px;
+    width: 200px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+}
+.total-record{
+    margin-left: 16px;
+}
+.total-record > strong{
+    text-decoration: none;
+}
+#previous,#next{
+   font-size: 14px;
+}
+#next{
+    margin-right: 16px;
+}
+
+
+#table th {
+}
+
+
+.scroll__table::-webkit-scrollbar {
+    height: 8px; /* Chiều cao của thanh cuộn */
+    border-radius: 8px; 
+
+  }
+  
+  .scroll__table::-webkit-scrollbar-thumb {
+    background-color: #333;
+    height: 5px;
+    border-radius: 8px; 
+
+
+/* Màu sắc của "nút" thanh cuộn */
+  }
+  
+  /* Tùy chỉnh thanh cuộn cho Firefox */
+  .scroll__table::-moz-scrollbar {
+    height: 5px;
+    border-radius: 8px;
+  }
+  
+.scroll__table::-moz-scrollbar-thumb {
+    background: #888; 
+    border-radius: 8px; 
+  }
+  
+  /* Tùy chỉnh thanh cuộn cho Edge */
+.scroll__table::-ms-scrollbar {
+    height: 5px;
+    border-radius: 8px; 
+
+  }
+  
+.scroll__table::-ms-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 8px; 
+
+  }
+.unselected{
+height: 36px;
+  width: 36px;
+  border-radius:4px;
+  border: unset;
+  text-align: center;
+  margin: 0px 12px 0px 12px;
+  display: grid;
+  place-content: center;
+}
+
+.unselected-text{
+    margin-left: 10px;
+
+}
+.delete-multiple-text{
+    font-weight: 600;
+    padding: 12px;
+
+
+}
+.count-row--select{
+    display: flex;
+    margin-left: 15px;
+}
+.count-row--select> strong{
+    text-decoration: none;
+}
+.delete-multiple .icon-combobox{
+    position: relative;
+}
+.delete-text:hover{
+    background-color: var(--border-color);
+}
+.delete-text{
+    text-align: left;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20px;
+    left: -90px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    justify-content: left;
+    justify-items: center;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 4px;
+    z-index: 999;
+}
+
+.close-form {
+    animation: hide 2s;
+    position: absolute;
+  }
+  @keyframes hide {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(-130%);
+    }
+  }
+  
+  .show-form {
+    animation: show 1s;
+    position: absolute;
+  }
+  @keyframes show {
+    0% {
+      transform: translateY(-110%);
+    }
+    50% {
+      transform: translateY(0%);
+    }
+  }
+  .border-error {
+    border: 1px solid red !important;
+  }

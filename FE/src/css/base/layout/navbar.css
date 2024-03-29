@@ -1,0 +1,8 @@
+.navbar__icon{
+    height: 56px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
